@@ -1,0 +1,46 @@
+body{
+    background-color: steelblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.width-container{
+    width: 1170px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.to-do-list-container{
+    width: 40%;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px 20px;
+
+}
+
+.input-1{
+    width: 70%;
+    height: 30px;
+    border: 1px solid darkgray;
+    border-right: none;
+}
+
+.button-1{
+    width: 28%;
+    height: 34px;
+    border: none;
+    background-color: #f728b7;
+    color: #ffffff;
+}
+
+input:focus{
+    outline: none;
+}
+
+#task-container button{
+    background-color: #f728b7;
+    color: #ffffff;
+    float: right;
+    border: none;
+
+}
